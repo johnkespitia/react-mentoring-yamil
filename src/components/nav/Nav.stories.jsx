@@ -9,3 +9,13 @@ export default {
 
   const Template = (args) => <Nav {...args} />;
   export const Primary = Template.bind({});
+  Primary.args = {
+    variant: 'blue',
+    size: 30
+ };
+ export const Secondary = Template.bind({});
+
+ Secondary.args = {
+    variant: 'green',
+    size: 25
+ };
